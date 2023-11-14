@@ -1,0 +1,9 @@
+digraph {
+	graph [size="20,8"]
+	graph [nodesep=0.05 rankdir=LR ranksep=0.3]
+	leaf0 [label=<leaf 0: <B>-0.594</B>> color=black fillcolor=white penwidth=1 shape=ellipse style=""]
+	split0 -> leaf0 [label=yes color=black penwidth=1]
+	leaf1 [label=<leaf 1: <B>-0.497</B>> color=black fillcolor=white penwidth=1 shape=ellipse style=""]
+	split0 -> leaf1 [label=no color=black penwidth=1]
+	split0 [label=<<B>average_unemployment_change</B> &#8804;<B>-0.000</B>> color=black fillcolor=white penwidth=1 shape=rectangle style=""]
+}
